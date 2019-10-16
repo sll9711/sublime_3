@@ -1,0 +1,7 @@
+SublimeLinter-php
+-------------------------------
+This linter plugin for SublimeLinter provides an interface to php -l.
+
+Please read the installation instructions at:
+
+https://github.com/SublimeLinter/SublimeLinter-php

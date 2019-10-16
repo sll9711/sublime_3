@@ -1,0 +1,160 @@
+[
+  {
+    "children": [
+      {
+        "caption": "Package Settings",
+        "children": [
+          {
+            "caption": "Localization",
+            "children": [
+              {
+                "args": {
+                  "file": "${packages}/User/Localization.sublime-settings"
+                },
+                "caption": "Settings",
+                "command": "open_file"
+              }
+            ]
+          }
+        ],
+        "id": "package-settings"
+      }
+    ],
+    "id": "preferences"
+  },
+  {
+    "children": [
+      {
+        "caption": "Language",
+        "children": [
+          {
+            "args": {
+              "action": "open_file",
+              "file": "${packages}/Default/Main.sublime-menu"
+            },
+            "command": "localize_tool"
+          },
+          {
+            "args": {
+              "action": "reset",
+              "file": ""
+            },
+            "command": "localize_tool"
+          },
+          {
+            "args": {
+              "action": "new_locale",
+              "file": ""
+            },
+            "command": "localize_tool"
+          },
+          {
+            "caption": "-"
+          },
+          {
+            "args": {
+              "language": "ZH_CN"
+            },
+            "caption": "Simplified Chinese 简体中文",
+            "checkbox": true,
+            "command": "toggle_language",
+            "mnemonic": "S"
+          },
+          {
+            "args": {
+              "language": "ZH_TW"
+            },
+            "caption": "Traditional Chinese 正體中文",
+            "checkbox": true,
+            "command": "toggle_language",
+            "mnemonic": "T"
+          },
+          {
+            "args": {
+              "language": "JA_JP"
+            },
+            "caption": "Japanese 日本語",
+            "checkbox": true,
+            "command": "toggle_language",
+            "mnemonic": "J"
+          },
+          {
+            "args": {
+              "language": "ru_RU"
+            },
+            "caption": "Russian Русский",
+            "checkbox": true,
+            "command": "toggle_language",
+            "mnemonic": "R"
+          },
+          {
+            "args": {
+              "language": "es_ES"
+            },
+            "caption": "Spanish Español",
+            "checkbox": true,
+            "command": "toggle_language",
+            "mnemonic": "E"
+          },
+          {
+            "args": {
+              "language": "fr_FR"
+            },
+            "caption": "French Français",
+            "checkbox": true,
+            "command": "toggle_language",
+            "mnemonic": "F"
+          },
+          {
+            "args": {
+              "language": "de_DE"
+            },
+            "caption": "German Deutsche",
+            "checkbox": true,
+            "command": "toggle_language",
+            "mnemonic": "G"
+          },
+          {
+            "args": {
+              "language": "sv_SE"
+            },
+            "caption": "Swedish Svenska",
+            "checkbox": true,
+            "command": "toggle_language",
+            "mnemonic": "v"
+          },
+          {
+            "args": {
+              "language": "hy_AM"
+            },
+            "caption": "Armenian Հայերեն",
+            "checkbox": true,
+            "command": "toggle_language",
+            "mnemonic": "A"
+          },
+          {
+            "args": {
+              "language": "EN"
+            },
+            "caption": "English",
+            "checkbox": true,
+            "command": "toggle_language",
+            "mnemonic": "E"
+          },
+          {
+            "args": {
+              "language": "Unknown"
+            },
+            "caption": "User Define",
+            "checkbox": true,
+            "command": "toggle_language",
+            "mnemonic": "U"
+          }
+        ],
+        "id": "locale",
+        "mnemonic": "L"
+      }
+    ],
+    "id": "help"
+  }
+]

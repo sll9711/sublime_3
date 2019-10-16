@@ -38,7 +38,8 @@ To configure your list of servers, select *Remote* → *Edit Servers/Settings* i
     // When you edit files on server they will be downloaded here first.
     // All files saved in this directory (or its subdirectories) will be uploaded to the appropriate paths on the server.
     "local_path": "~/Sites/",
-
+    //"local_path": "E:\\phpstudy2018\\PHPTutorial\\tmp\\tmp_WWW",
+    
     // Username
     "user": "root",
 
@@ -53,7 +54,7 @@ To configure your list of servers, select *Remote* → *Edit Servers/Settings* i
     // "ssh_key_pass": "",
 
     // If true, ignores modification times of files and downloads them even if they are unchanged.
-    // "always_download": false,
+     "always_download": true,
   }]
 }
 ```
